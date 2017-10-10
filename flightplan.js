@@ -11,6 +11,7 @@ plan.target('staging', [
   {
     host: '188.166.244.113',
     username: 'deploy',
+    password: 'thienth1234',
     agent: process.env.SSH_AUTH_SOCK
   }
 ]);
@@ -19,6 +20,7 @@ plan.target('production', [
   {
     host: '188.166.244.113',
     username: 'deploy',
+    password: 'thienth1234',
     agent: process.env.SSH_AUTH_SOCK
   },
 //add in another server if you have more than one
